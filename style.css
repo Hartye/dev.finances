@@ -251,7 +251,7 @@ input {
     margin-top: .8rem;
 }
 
-.input-group small {
+.input-group .help {
     opacity: 0.4;
 }
 
@@ -272,6 +272,10 @@ footer {
     padding: 4rem 0 2rem;
     color: var(--dark-blue);
     opacity: 0.6;
+}
+
+.copy.active {
+    display: none;
 }
 
 /* Responsive ================ */
